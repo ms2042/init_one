@@ -1,35 +1,49 @@
-header {
-  background-color: white;
 
+
+body{
+	margin: 0;
+  padding:0;
+}
+
+header {
+  margin: 0;
 
 }
 
 .header-top {
-  font-family : serif ;
-  padding: 20px 630px;
+  background-image: url(gazou.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
 
-
+..header-top img {
+  opacity: 0.7;
 }
 
 .header-logo {
+  font-family : ヒラギノ明朝 Pro W6 ;
+  font-size : 50px;
+  color: white;
+  margin:27px;
+  padding:45px;
 
-font-size : 37px;
+
+}
+
+.header-image img{
+  width: 100%;
+  opacity: 0.8;
+
 }
 
 main {
-  background-color: ;
-  height : 1890px;
+  padding: 50px;
+  height : 1300px;
 }
 
 
-.main-image img{
-  display: block;
-  margin:auto;
-  padding: 50px 120px;
-  width: 80%;
-  height: 550px;
 
-}
 
 
 
@@ -171,7 +185,15 @@ hr {
 }
 
 
+
 a:visited {
+
+color:#000;
+text-decoration:underline;
+
+}
+
+a:link {
 
 color:#808080;
 text-decoration:underline;
@@ -213,6 +235,13 @@ footer {
   text-align: center;
 }
 i {
+  margin: 5px;
+  padding-left: 10px;
   font-size: 26px;
   letter-spacing:15px;
+}
+
+.footer-me li {
+  color:#000;
+
 }
